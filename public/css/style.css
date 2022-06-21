@@ -1,0 +1,494 @@
+
+/*GENERAL*/
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#ebebeb;;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*HEADER*/
+header{
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+nav{
+    display: none;
+}
+
+
+
+.logo{
+    width: 120px;
+}
+
+.titular-oferta-principal{
+    text-align: center;
+}
+
+
+.header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+input.buscador{
+    border-radius: 5%;
+    border: 2px white solid;
+    padding: 5px;
+    width: 66%;
+
+    
+
+}
+
+.button-search{
+    background: white;
+    border: 1px solid #fff;
+    color: grey;
+    width: 2em;
+    padding: 6px;
+    border-radius: 14%;
+}
+
+.header-top-bar .button i{
+    background: white;
+    color: gray;
+    position: relative;
+    height: 27px;
+    padding: 5px;
+    bottom: 25px;
+    left: 81px;
+    border-radius: 3px;
+}
+
+.fa-magnifying-glass{
+    
+    background-color: #FFF;
+}
+
+
+div.burger-menu{
+    text-align: center;
+
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 2em;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 4px 2px 2px 2px;
+    width: 40px;
+}
+
+
+div.banner img{
+    width: 100%;
+}
+
+.titular{
+    font-size: 24px;
+    line-height: 50px
+
+}
+ 
+ 
+/*PRODUCTOS*/
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main .productos{
+    text-align: center;
+    margin-top: 5px;
+}
+
+main .productos{
+    line-height: 10px;
+}
+ 
+main .productos img{
+    width: 100%;
+   
+}
+
+.info-producto{
+    border-top: solid 1px #ebebeb;
+    background-color: white;
+    padding: 15px;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column
+}
+
+article{
+    margin-bottom: 10px ;
+}
+
+article div.info-producto{
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+main section article i,
+.descuento{
+    color: #39b54a;
+}
+
+main section article i{
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.truck{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+    color: #39b54a;
+}
+
+.precio-descuento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.precio{
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuento{
+    font-size: 16px;
+    width: 70%;  
+}
+
+.descripcion{
+    font-size: 16px;
+    display: none;
+    font-weight: normal;
+    color: #666;
+    margin-top: 20px;
+}
+
+
+
+/*FOOTER*/
+footer{
+    background-color: white;
+    padding: 20px;
+}
+
+footer i{
+    color: blue;
+}
+
+.cuerpo-titulo{
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.cuerpo-texto{
+    font-size: 12px;
+    text-align: center;
+
+}
+
+
+.copyright{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+/* ICONOS */
+
+.buscador{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.credit-card{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+
+}
+
+.gift{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+
+}
+
+.user-shield{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+@media (min-width: 361px){
+    
+    .logo{
+    width: 50%;
+    
+    }
+
+    input.buscador{
+        width: 48%;
+    }
+    
+
+    .header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;    
+    }
+
+    div.form{
+    display: flex;
+    width: 50%;
+    margin: 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;   
+    }
+
+    h3.titular-oferta-princial{
+    width: 100%;
+    }
+    .input{
+    width: 80%;
+    }
+
+    main section div.productos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;          
+    }
+
+    main section article {
+    width: 40%;
+    justify-content: space-around;
+    margin: 10px auto;    
+    padding: 10px;
+    }  
+
+    .info-producto{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    }
+
+    main section article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+    }
+
+    .descripcion {
+    display: block;
+    color: #ffff;
+    transition: color 0.7s;
+    }
+
+    article:hover .info-producto .descripcion{
+    color: #666;   
+    }
+
+    h3.titular-oferta-principal{
+    width: 100%;
+    }   
+
+    .precio{
+    width: 50%;
+    }
+
+    .descuento{
+    width: 50%;
+    }
+
+    main section article{
+    transition: all 0.7s;
+    }
+
+    p.precio{
+        font-size: 10px;
+    }
+    
+    p.descuento{
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+@media (min-width: 769px){
+.logo{
+    width: 33%;      
+}
+
+input.buscador{
+    width: 70%;
+}
+
+
+div.form{
+    display: block;
+    width: 33%;     
+}
+
+p.precio{
+    font-size: 18px;
+}
+
+p.descuento{
+    font-size: 18px;
+}
+.burger-menu{
+    display: none;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.nav-bar  ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li{
+    margin: 0 5px 10px 5px;
+}
+
+.titular-oferta-principal{
+    max-width: 350px;
+    text-align: right;
+}
+
+main {
+    width: 100%;
+}
+
+h3.titular-oferta-principal{
+    width: 33%;
+}
+
+.header-top-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+main section article {
+    width: 22%;
+    padding: 10px;
+    margin: 10px auto;    
+}
+    
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+.logo {
+    width: 250px;
+}
+
+input.buscador{
+    width: 70%;
+}
+
+
+.banner img{
+    height: 200px;
+}
+
+
+.header-top-bar, .nav-bar{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav-bar{
+    margin-top: 32px;
+}
+
+.nav-bar li{
+    margin: 0 10px 10px 10px;
+}
+
+.nav-bar a{
+    font-size: 19px;
+}
+
+.header-top-bar{
+    align-items: center;
+    
+}
+
+.titular-oferta-principal{
+    max-width: none;
+    font-size: 22px;
+    font-weight: 400;  
+}
+
+}
+
+
+

@@ -1,0 +1,50 @@
+
+.formulario-login{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 10px;
+    
+}
+
+form.formulario-login div {
+    padding: 10px 0px;
+    width: 100%;
+}
+
+
+.usuario-login, .password-login{
+    margin: 15px 0;
+    width:  100%;
+    border: 2px white solid;
+    border-radius: 8%;
+    height: 40px;
+    padding: 5px;
+}
+
+button.login{
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border-bottom: 5px;
+}
+
+
+@media(min-width:361px){
+    .formulario-login{
+        width: 70%;
+    }
+}
+
+@media(min-width:769px){
+    .formulario-login{
+        width: 50%;
+    }
+}
+
